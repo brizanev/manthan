@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBrowserLibrary", "PhotoBrowserLibrary\PhotoBrowserLibrary.csproj", "{A3324567-BBBB-4B50-9661-7B99EE14B9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "squishyTREE", "squishyTREE\squishyTREE.csproj", "{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBrowser", "PhotoBrowser\PhotoBrowser.csproj", "{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Unit Tests|Any CPU = Unit Tests|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3324567-BBBB-4B50-9661-7B99EE14B9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3324567-BBBB-4B50-9661-7B99EE14B9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3324567-BBBB-4B50-9661-7B99EE14B9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3324567-BBBB-4B50-9661-7B99EE14B9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3324567-BBBB-4B50-9661-7B99EE14B9DD}.Unit Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{A3324567-BBBB-4B50-9661-7B99EE14B9DD}.Unit Tests|Any CPU.Build.0 = Release|Any CPU
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Unit Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Unit Tests|Any CPU.Build.0 = Release|Any CPU
+		{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}.Unit Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}.Unit Tests|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

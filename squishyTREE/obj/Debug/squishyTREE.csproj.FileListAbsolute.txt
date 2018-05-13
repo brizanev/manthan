@@ -1,0 +1,10 @@
+C:\Users\dell\Downloads\PhotoBrowser\squishyTREE\bin\Debug\squishyTREE.dll
+C:\Users\dell\Downloads\PhotoBrowser\squishyTREE\bin\Debug\squishyTREE.pdb
+C:\Users\dell\Downloads\PhotoBrowser\squishyTREE\obj\Debug\squishyTREE.csprojResolveAssemblyReference.cache
+C:\Users\dell\Downloads\PhotoBrowser\squishyTREE\obj\Debug\squishyTREE.dll
+C:\Users\dell\Downloads\PhotoBrowser\squishyTREE\obj\Debug\squishyTREE.pdb
+D:\MyProjects\PhotoBrowser\squishyTREE\bin\Debug\squishyTREE.dll
+D:\MyProjects\PhotoBrowser\squishyTREE\bin\Debug\squishyTREE.pdb
+D:\MyProjects\PhotoBrowser\squishyTREE\obj\Debug\squishyTREE.csprojResolveAssemblyReference.cache
+D:\MyProjects\PhotoBrowser\squishyTREE\obj\Debug\squishyTREE.dll
+D:\MyProjects\PhotoBrowser\squishyTREE\obj\Debug\squishyTREE.pdb

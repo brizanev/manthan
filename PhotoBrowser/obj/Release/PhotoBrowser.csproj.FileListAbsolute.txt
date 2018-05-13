@@ -1,0 +1,10 @@
+D:\MyProjects\PhotoBrowser\PhotoBrowser\bin\PhotoBrowser.dll.config
+D:\MyProjects\PhotoBrowser\PhotoBrowser\bin\PhotoBrowser.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowser\bin\PhotoBrowserLibrary.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowser\bin\squishyTREE.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowser\obj\Release\PhotoBrowser.csprojResolveAssemblyReference.cache
+D:\MyProjects\PhotoBrowser\PhotoBrowser\obj\Release\codefresh.website.Global.resources
+D:\MyProjects\PhotoBrowser\PhotoBrowser\obj\Release\Codefresh.PhotosBrowser.PhotoBrowser.resources
+D:\MyProjects\PhotoBrowser\PhotoBrowser\obj\Release\PhotoBrowser.csproj.GenerateResource.Cache
+D:\MyProjects\PhotoBrowser\PhotoBrowser\obj\Release\PhotoBrowser.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowser\obj\Release\Codefresh.PhotosServer.photos.resources

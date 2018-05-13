@@ -1,0 +1,9 @@
+C:\Users\dell\Downloads\PhotoBrowser\PhotoBrowserLibrary\bin\Debug\PhotoBrowserLibrary.dll
+C:\Users\dell\Downloads\PhotoBrowser\PhotoBrowserLibrary\bin\Debug\PhotoBrowserLibrary.pdb
+C:\Users\dell\Downloads\PhotoBrowser\PhotoBrowserLibrary\obj\Debug\PhotoBrowserLibrary.dll
+C:\Users\dell\Downloads\PhotoBrowser\PhotoBrowserLibrary\obj\Debug\PhotoBrowserLibrary.pdb
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\bin\Debug\PhotoBrowserLibrary.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\bin\Debug\PhotoBrowserLibrary.pdb
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\obj\Debug\PhotoBrowserLibrary.csprojResolveAssemblyReference.cache
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\obj\Debug\PhotoBrowserLibrary.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\obj\Debug\PhotoBrowserLibrary.pdb

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "squishyTREE", "squishyTREE.csproj", "{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvTree", "http://localhost/AdvTree/AdvTree.csproj", "{20EE5314-A19A-419B-BCD1-9D7756D0BDA3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Debug.ActiveCfg = Debug|.NET
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Debug.Build.0 = Debug|.NET
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Release.ActiveCfg = Release|.NET
+		{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}.Release.Build.0 = Release|.NET
+		{20EE5314-A19A-419B-BCD1-9D7756D0BDA3}.Debug.ActiveCfg = Debug|.NET
+		{20EE5314-A19A-419B-BCD1-9D7756D0BDA3}.Debug.Build.0 = Debug|.NET
+		{20EE5314-A19A-419B-BCD1-9D7756D0BDA3}.Release.ActiveCfg = Release|.NET
+		{20EE5314-A19A-419B-BCD1-9D7756D0BDA3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

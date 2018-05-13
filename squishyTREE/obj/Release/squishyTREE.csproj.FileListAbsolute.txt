@@ -1,0 +1,3 @@
+D:\MyProjects\PhotoBrowser\squishyTREE\bin\Release\squishyTREE.dll
+D:\MyProjects\PhotoBrowser\squishyTREE\obj\Release\squishyTREE.csprojResolveAssemblyReference.cache
+D:\MyProjects\PhotoBrowser\squishyTREE\obj\Release\squishyTREE.dll

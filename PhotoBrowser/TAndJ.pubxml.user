@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\dell\Desktop\TnJ_Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/PhotoBrowser.dll">
+      <publishTime>04/06/2018 00:24:28</publishTime>
+    </File>
+    <File Include="bin/PhotoBrowserLibrary.dll">
+      <publishTime>04/06/2018 00:24:28</publishTime>
+    </File>
+    <File Include="bin/squishyTREE.dll">
+      <publishTime>01/10/2018 23:21:34</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/elastic_grid.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/slick.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/superslides.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/chocolate-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/default-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/eucalyptus-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/flamingo-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/lime-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/lynch-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/plum-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/red-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/riptide-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="css/themes/yellow-theme.css">
+      <publishTime>01/10/2018 22:51:04</publishTime>
+    </File>
+    <File Include="ExtraJS/html5shiv.min.js">
+      <publishTime>01/10/2018 22:50:38</publishTime>
+    </File>
+    <File Include="ExtraJS/jquery.circliful.css">
+      <publishTime>01/10/2018 22:50:38</publishTime>
+    </File>
+    <File Include="ExtraJS/jquery.circliful.min.js">
+      <publishTime>01/10/2018 22:50:39</publishTime>
+    </File>
+    <File Include="ExtraJS/respond.min.js">
+      <publishTime>01/10/2018 22:50:40</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/10/2018 22:51:24</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="img/247.jpg">
+      <publishTime>01/10/2018 23:31:13</publishTime>
+    </File>
+    <File Include="img/BackToHomepage.jpg">
+      <publishTime>04/06/2018 09:11:40</publishTime>
+    </File>
+    <File Include="img/blog_img1.jpg">
+      <publishTime>01/10/2018 23:31:13</publishTime>
+    </File>
+    <File Include="img/clients_img1.png">
+      <publishTime>01/10/2018 23:31:13</publishTime>
+    </File>
+    <File Include="img/contact-feature-bg.jpg">
+      <publishTime>01/10/2018 23:31:13</publishTime>
+    </File>
+    <File Include="img/contact-feature-bg1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/favicon.png">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/feature_img1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/balls.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/banner_digital_social_strategy.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/download %281%29.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/download.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide-1_.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide1_.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide2.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide2_.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide3_.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide4.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/full-slide_.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/k.-r.-stationers-image-3-1024x563 %281%29 - Copy.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/k.-r.-stationers-image-3-1024x563.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/pencil.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/ull-slide1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/full-slider/_full-slide1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/mission.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/next_icon.png">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/portfolio/large/1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/portfolio/small/1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/prev_icon.png">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/skills_bg.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/SSLogo.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/status.gif">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/team-1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/Team11.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/Team12.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/Team21.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/techidea.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/testimonial-arrow.png">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/01.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/04.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/05.png">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/06.png">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/11.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/7-helping-people-grow-board-idea.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/artlangpin1.jpg">
+      <publishTime>01/10/2018 23:31:14</publishTime>
+    </File>
+    <File Include="img/TnJ/bulletin-board.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/contact-feature-bg.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/cropped-eurokids.png">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/DSC_0190.JPG">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/girl.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/images %281%29.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/images %2810%29.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/images %282%29.png">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/images %283%29.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/images5kids.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/jumpingkids.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/leavespaint.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/RoomYellow1.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/RoomYellow2.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/TomNJerry.png">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/TnJ/unnamed.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/Tom and jerry.pptx">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/vision.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/works_counterbg.jpg">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="img/_favicon.png">
+      <publishTime>01/10/2018 23:31:15</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/05/2018 02:05:52</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/classie.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/elastic_grid.min.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/jquery.superslides.min.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/jquery.ui.map.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/portfolio_slider.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/slick.min.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="js/wow.min.js">
+      <publishTime>01/10/2018 22:51:40</publishTime>
+    </File>
+    <File Include="PhotoBrowser.ascx">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/first.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/folder.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/index.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/last.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/left.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/movie.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/next.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/next_disabled.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_anchor_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_centerpopup_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_crossframe_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_cssstyle_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_debug_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_exclusive_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_followscroll_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_hideform_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_setonoff_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/Mini/overlib_shadow_mini.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_anchor.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_centerpopup.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_crossframe.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_cssstyle.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_debug.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_exclusive.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_followscroll.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_hideform.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_setonoff.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/overlib/overlib_shadow.js">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/PhotoBrowser.css">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/previous.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/previous_disabled.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/right.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/bottomnosiblingnochildren.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/clear.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/closedfolder.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/middlecollapsednosibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/middlecollapsedsibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/middleexpandednosibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/middleexpandedsibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/middlesiblingnochildren.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/openfolder.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/topcollapsednosibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/topcollapsedsibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/topexpandednosibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/Treeview/topexpandedsibling.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="PhotoBrowserRes/up.gif">
+      <publishTime>12/02/2004 16:26:42</publishTime>
+    </File>
+    <File Include="photos.aspx">
+      <publishTime>04/05/2018 02:15:16</publishTime>
+    </File>
+    <File Include="resources/BigNews.pdf">
+      <publishTime>03/24/2018 14:26:10</publishTime>
+    </File>
+    <File Include="resources/GraduationInvitation.pdf">
+      <publishTime>03/24/2018 14:26:10</publishTime>
+    </File>
+    <File Include="resources/Tom And Jerry Day.pdf">
+      <publishTime>03/24/2018 14:26:10</publishTime>
+    </File>
+    <File Include="resources/TomAndJerry_Syllabus_2018-19.pdf">
+      <publishTime>03/24/2018 14:26:11</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>06/25/2017 23:45:09</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/05/2018 01:20:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

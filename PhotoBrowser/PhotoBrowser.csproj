@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A88EAAB4-1EF6-4A1C-B54E-4F0C00F19DCE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>PhotoBrowser</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Codefresh.PhotoBrowser</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UseIISExpress>true</UseIISExpress>
+    <UpgradeBackupLocation />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhotoBrowserLibrary\PhotoBrowserLibrary.csproj">
+      <Name>PhotoBrowserLibrary</Name>
+      <Project>{A3324567-BBBB-4B50-9661-7B99EE14B9DD}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\squishyTREE\squishyTREE.csproj">
+      <Name>squishyTREE</Name>
+      <Project>{CEF0C869-E0B1-4C7D-8F1A-983F9CDB9629}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PhotoBrowser.ascx.cs">
+      <DependentUpon>PhotoBrowser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="photos.aspx.cs">
+      <DependentUpon>photos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\elastic_grid.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\slick.css" />
+    <Content Include="css\superslides.css" />
+    <Content Include="css\themes\chocolate-theme.css" />
+    <Content Include="css\themes\default-theme.css" />
+    <Content Include="css\themes\eucalyptus-theme.css" />
+    <Content Include="css\themes\flamingo-theme.css" />
+    <Content Include="css\themes\lime-theme.css" />
+    <Content Include="css\themes\lynch-theme.css" />
+    <Content Include="css\themes\plum-theme.css" />
+    <Content Include="css\themes\red-theme.css" />
+    <Content Include="css\themes\riptide-theme.css" />
+    <Content Include="css\themes\yellow-theme.css" />
+    <Content Include="ExtraJS\html5shiv.min.js" />
+    <Content Include="ExtraJS\jquery.circliful.css" />
+    <Content Include="ExtraJS\jquery.circliful.min.js" />
+    <Content Include="ExtraJS\respond.min.js" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="img\247.jpg" />
+    <Content Include="img\blog_img1.jpg" />
+    <Content Include="img\clients_img1.png" />
+    <Content Include="img\contact-feature-bg.jpg" />
+    <Content Include="img\contact-feature-bg1.jpg" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\feature_img1.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\mission.jpg" />
+    <Content Include="img\next_icon.png" />
+    <Content Include="img\prev_icon.png" />
+    <Content Include="img\skills_bg.jpg" />
+    <Content Include="img\SSLogo.jpg" />
+    <Content Include="img\status.gif" />
+    <Content Include="img\team-1.jpg" />
+    <Content Include="img\Team11.jpg" />
+    <Content Include="img\Team12.jpg" />
+    <Content Include="img\Team21.jpg" />
+    <Content Include="img\techidea.jpg" />
+    <Content Include="img\testimonial-arrow.png" />
+    <Content Include="img\vision.jpg" />
+    <Content Include="img\works_counterbg.jpg" />
+    <Content Include="img\_favicon.png" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\classie.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\elastic_grid.min.js" />
+    <Content Include="js\jquery.superslides.min.js" />
+    <Content Include="js\jquery.ui.map.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\portfolio_slider.js" />
+    <Content Include="js\slick.min.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="PhotoBrowser.ascx" />
+    <Content Include="PhotoBrowserRes\first.gif" />
+    <Content Include="PhotoBrowserRes\folder.gif" />
+    <Content Include="PhotoBrowserRes\index.gif" />
+    <Content Include="PhotoBrowserRes\last.gif" />
+    <Content Include="PhotoBrowserRes\left.gif" />
+    <Content Include="PhotoBrowserRes\movie.gif" />
+    <Content Include="PhotoBrowserRes\next.gif" />
+    <Content Include="PhotoBrowserRes\next_disabled.gif" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_anchor_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_centerpopup_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_crossframe_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_cssstyle_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_debug_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_exclusive_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_followscroll_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_hideform_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_setonoff_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\Mini\overlib_shadow_mini.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_anchor.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_centerpopup.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_crossframe.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_cssstyle.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_debug.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_exclusive.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_followscroll.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_hideform.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_setonoff.js" />
+    <Content Include="PhotoBrowserRes\overlib\overlib_shadow.js" />
+    <Content Include="PhotoBrowserRes\PhotoBrowser.css" />
+    <Content Include="PhotoBrowserRes\previous.gif" />
+    <Content Include="PhotoBrowserRes\previous_disabled.gif" />
+    <Content Include="PhotoBrowserRes\right.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\bottomnosiblingnochildren.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\clear.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\closedfolder.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\middlecollapsednosibling.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\middlecollapsedsibling.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\middleexpandednosibling.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\middleexpandedsibling.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\middlesiblingnochildren.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\openfolder.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\topcollapsednosibling.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\topcollapsedsibling.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\topexpandednosibling.gif" />
+    <Content Include="PhotoBrowserRes\Treeview\topexpandedsibling.gif" />
+    <Content Include="PhotoBrowserRes\up.gif" />
+    <Content Include="style.css" />
+    <Content Include="photos.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web.config" />
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhotoBrowser.ascx.resx">
+      <DependentUpon>PhotoBrowser.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="photos.aspx.resx">
+      <DependentUpon>photos.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="img\Tom and jerry.pptx" />
+    <None Include="PhotoBrowserRes\Thumbs.db" />
+    <None Include="photos\PhotosServer.mdb" />
+    <Content Include="resources\BigNews.pdf" />
+    <Content Include="resources\GraduationInvitation.pdf" />
+    <Content Include="resources\Tom And Jerry Day.pdf" />
+    <Content Include="resources\TomAndJerry_Syllabus_2018-19.pdf" />
+    <None Include="TAndJ.pubxml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v14.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56734/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

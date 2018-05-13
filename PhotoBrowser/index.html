@@ -1,0 +1,1184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tom & Jerry PlaySchool And Daycare : Home</title>
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/TnJ/TomNJerry.png" />
+    <!-- CSS
+    ================================================== -->
+    <!-- Bootstrap css file-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome css file-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Superslide css file-->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!-- Slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet">
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Elastic grid css file -->
+    <link rel="stylesheet" href="css/elastic_grid.css">
+    <!-- Circle counter cdn css file -->
+    <link rel='stylesheet prefetch' href='extrajs/jquery.circliful.css'>
+    <!-- Default Theme css file -->
+    <link id="orginal" href="css/themes/default-theme.css" rel="stylesheet">
+    <!-- Main structure css file -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="extrajs/html5shiv.min.js"></script>
+      <script src="extrajs/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body onload="getLocation();">
+    <!-- BEGAIN PRELOADER -->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;</div>
+    </div>
+    <!-- END PRELOADER -->
+    <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    <!-- END SCROLL TOP BUTTON -->
+    <!--=========== BEGIN HEADER SECTION ================-->
+    <header id="header">
+      <!-- BEGIN MENU -->
+      <div class="menu_area">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+          <div class="container">
+          <div class="navbar-header">
+            <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- LOGO -->
+            <img src="img/TnJ/TomNJerry.png" height="60px;" width="60px;" alt="img">
+            <!-- TEXT BASED LOGO -->
+            <a class="navbar-brand" href="#">Tom & Jerry <span><br />PlaySchool</span></a>
+            
+            <!-- IMG BASED LOGO  -->
+            <!--  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a> --> 
+            
+                   
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Programs</a></li> 
+              <!--<li><a href="#works">Works</a></li>--> 
+              <li><a href="#team">Team</a></li> 
+              <li><a href="#pricing">Fees Structure</a></li>
+              <li><a href="#blog">Blog</a></li>   
+              <li><a href="photos.aspx">Gallery</a></li>            
+              <li><a href="#contact">Contacts</a></li>                           
+            </ul>           
+          </div><!--/.nav-collapse -->
+          </div>     
+        </nav>  
+      </div>
+      <!-- END MENU -->
+
+      <!-- BEGIN SLIDER AREA-->
+      <div class="slider_area">
+        <!-- BEGIN SLIDER-->          
+        <div id="slides">
+          <ul class="slides-container">
+
+            <!-- THE FIRST SLIDE-->
+            <li>
+              <!-- FIRST SLIDE OVERLAY -->
+              <div class="slider_overlay"></div> 
+              <!-- FIRST SLIDE MAIN IMAGE -->
+              <img src="img/full-slider/full-slide1.jpg" alt="img">
+              <!-- FIRST SLIDE CAPTION-->
+              <div class="slider_caption">
+                  <h2><br></br>
+                      <p>Indoor cum Outdoor school at your doorstep</p>
+                  </h2>
+                <!--<a href="#about" class="slider_btn">Who we are</a>              -->
+              </div>
+            </li>
+
+            <!-- THE SECOND SLIDE-->
+            <li>
+              <!-- SECOND SLIDE OVERLAY -->
+              <div class="slider_overlay"></div> 
+              <!-- SECOND SLIDE MAIN IMAGE -->
+              <img src="img/full-slider/pencil.jpg" alt="img">
+              <!-- SECOND SLIDE CAPTION-->
+              <div class="slider_caption">
+                  <h2>
+                      <br></br>
+                      <p>Admission open for Playschool and Nursery</p>
+                      <a href="resources/TomAndJerry_Syllabus_2018-19.pdf" class="slider_btn">Download Syllabus</a>
+                  </h2>
+                </div>
+            </li>
+
+            <!-- THE THIRD SLIDE-->
+            <li>
+              <!-- THIRD SLIDE OVERLAY -->
+              <div class="slider_overlay"></div> 
+              <!-- THIRD SLIDE MAIN IMAGE -->
+              <img src="img/full-slider/balls.jpg" alt="img">
+              <!-- THIRD SLIDE CAPTION-->
+                <div class="slider_caption">
+                    <h2>
+                        <br></br>
+                        <p>Daycare facilities by qualified people</p>
+                        <a href="#pricing" class="slider_btn">affordable fees</a>
+                    </h2>
+                </div>
+            </li>
+          </ul>
+          <!-- BEGAIN SLIDER NAVIGATION -->
+          <nav class="slides-navigation">
+            <!-- PREV IN THE SLIDE -->
+            <a class="prev" href="/item1">
+              <span class="icon-wrap"></span>
+              <h3><strong>Prev</strong></h3>
+            </a>
+            <!-- NEXT IN THE SLIDE -->
+            <a class="next" href="/item3">
+              <span class="icon-wrap"></span>
+              <h3><strong>Next</strong></h3>
+            </a>
+          </nav>       
+        </div>
+        <!-- END SLIDER-->          
+      </div>
+      <!-- END SLIDER AREA -->
+    </header>
+    <!--=========== End HEADER SECTION ================-->
+    <!--=========== BEGIN ABOUT SECTION ================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="about_area">
+              <!-- START ABOUT HEADING -->
+              <div class="heading">
+                <h2 class="wow fadeInLeftBig">About Us</h2>
+                <p>Choosing a nursery for your child is one of the most important decisions as a parent. It is essential that you find a nursery which will support your child's developmental needs and provide a safe, caring and secure environment to allow them to develop into a unique individual.</p>
+<p>
+Our aim is to help your child develop physically, socially and emotionally and prepare them for the transition to school. Our staff carefully plan and prepare for each child's needs, supporting their development.
+</p>
+<p>
+Tom And Jerry is a new nursery with an environment designed to help your child's needs and develop their learning. We provide bright, airy rooms within a safe, stimulating and secure environment, providing opportunities to develop and enhance every child's individual needs.</p>
+<p><b>If you would like to contact us please e-mail: childcare@tomandjerry.org.in or call (+91)-9811537278, (+91)-9716045156</b></p>
+              </div>
+
+              <!-- START ABOUT CONTENT -->
+              <div class="about_content">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="about_featured">
+                      <div class="panel-group" id="accordion">
+                        <!-- START SINGLE FEATURED ITEAM #1-->
+                        <div class="panel panel-default wow fadeInLeft">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                 <span class="fa fa-check-square-o"></span>Our Belief
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                            <ul>
+<li>-> that children are born with a natural ability to learn.</li>
+<li>-> that all children have the right to a safe, loving and nurturing environment in the collaboration between children, teachers, parents and community.</li>
+<li>-> that all individuals are unique in their perspective and have the right to share their ideas in a respectful environment</li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- START SINGLE FEATURED ITEAM #2 -->
+                        <div class="panel panel-default wow fadeInLeft">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                 <span class="fa fa-check-square-o"></span>Our Values
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+-each child as a capable individual full of ideas and knowledge.<br />
+-the reciprocal learning of children.<br />
+-life-long learning for all individuals.<br />
+-time as a necessity for exploration and learning.<br />
+-simplicity in form, function, process and policy.<br />
+-complexity in thinking processes, research and stages of development.</div>
+                          </div>
+                        </div>
+                        <!-- START SINGLE FEATURED ITEAM #3 -->
+                        <div class="panel panel-default wow fadeInLeft">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <span class="fa fa-check-square-o"></span>Philosophy
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                              Tom And Jerry provides an environment in which your child will grow in knowledge and confidence based on the philosophies of the Montessori Method of Education. The Montessori approach allows the method to adapt to the needs of your child regardless of his/her level of ability, learning style or social maturity. At Tom And Jerry, we believe that this philosophy with its flexibility and focus on each individual child puts your child in a situation where they can succeed, not only in becoming excellent scholars, but also becoming contributors and leaders in our society.                             
+                            </div>
+                          </div>
+                        </div>
+                        <!-- START SINGLE FEATURED ITEAM #4 -->
+                        <div class="panel panel-default wow fadeInLeft">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                <span class="fa fa-check-square-o"></span>Montessori
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                             The main concept of Montessori is to promote the joy of learning. This joy of learning develops a well adjusted person who has a purpose and direction in his or her life. Children, who experience the joy of learning, are happy, confident, fulfilled children. In essence, Montessori helps bring forth the giftedness of each child.<br />
+                             For more information call us at (+91)-9811537278, (+91)-9716045156 or EMail us at:<br />
+                                childcare@tomandjerry.org.in<br />
+                                contact@tomandjerry.org.in  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="about_slider">
+                      <!-- BEGAIN FEATURED SLIDER -->
+                      <div class="featured_slider">
+                        <!-- SINGLE SLIDE IN THE SLIDER -->
+                        <div class="single_iteam">
+                          <a href="#"> <img src="img/TnJ/cropped-eurokids.png" alt="img"></a>                           
+                        </div>
+                        <!-- SINGLE SLIDE IN THE SLIDER -->
+                        <div class="single_iteam">
+                          <a href="#"> <img src="img/TnJ/RoomYellow1.jpg" alt="img"></a>                           
+                        </div>
+                        <!-- SINGLE SLIDE IN THE SLIDER -->
+                        <div class="single_iteam">
+                          <a href="#"> <img src="img/TnJ/jumpingkids.jpg" alt="img"></a>                          
+                        </div>
+                        <!-- SINGLE SLIDE IN THE SLIDER -->
+                        <div class="single_iteam">
+                          <a href="#"> <img src="img/TnJ/images5kids.jpg" alt="img"></a>                          
+                        </div>
+                        <!-- SINGLE SLIDE IN THE SLIDER -->
+                        <div class="single_iteam">
+                          <a href="#"> <img src="img/TnJ/DSC_0190.jpg" alt="img"></a>                           
+                        </div>
+                        <!-- SINGLE SLIDE IN THE SLIDER -->
+                        <div class="single_iteam">
+                          <a href="#"> <img src="img/TnJ/RoomYellow2.jpg" alt="img"></a>                           
+                        </div>
+                        <!-- SINGLE SLIDE IN THE SLIDER -->
+                        <div class="single_iteam">
+                          <a href="#"> <img src="img/TnJ/girl.jpg" alt="img"></a>                           
+                        </div>                        
+                      </div>
+                      <!-- END FEATURED SLIDER -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+       <!-- BEGAIN SKILLS  -->
+       <!--Uncomment skills start
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="skills_area">
+              <div class="slider_overlay"></div>
+              <div class="container">               
+                <div class="skills">
+                 <div class="heading">
+                    <h3 class="wow fadeInDown">Our Skills</h3>               
+                  </div>
+                  <!-- START SINGLE SKILL->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                   <div class="single_skill wow fadeInUp">
+                     <div id="myStat" data-dimension="150" data-text="85%" data-info="" data-width="10" data-fontsize="25" data-percent="85" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>Design</h4>                      
+                    </div>
+                  </div>
+                  <!-- START SINGLE SKILL->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_skill wow fadeInUp">
+                      <div id="myStathalf2" data-dimension="150" data-text="90%" data-info="" data-width="10" data-fontsize="25" data-percent="90" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>HTML/CSS</h4>
+                    </div>
+                  </div>
+                  <!-- START SINGLE SKILL->
+                  <div class="col-lg-3 col-md-3 col-sm-3">                 
+                    <div class="single_skill wow fadeInUp">
+                      <div id="myStat2" data-dimension="150" data-text="65%" data-info="" data-width="10" data-fontsize="25" data-percent="65" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>jQuery</h4>
+                    </div>
+                  </div>
+                  <!-- START SINGLE SKILL->
+                  <div class="col-lg-3 col-md-3 col-sm-3">                 
+                    <div class="single_skill wow fadeInUp">
+                      <div id="myStat3" data-dimension="150" data-text="75%" data-info="" data-width="10" data-fontsize="25" data-percent="75" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>WordPress</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        uncomment skills end-->
+        <!-- END SKILLS  -->
+    </section>
+    <!--=========== END ABOUT SECTION ================-->
+    <!--=========== BEGIN SERVICE SECTION ================-->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- BEGAIN SERVICE HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Our Programs</h2>
+              <p>Tom And Jerry has a very innovative and comprehensive program in store for your child, one in which your child will grow in knowledge, self-awareness and confidence. At Tom And Jerry, classes are organized as a miniature society in which children work and learn together in harmony, while maintaining their individuality. The role of the teacher is to assist the child in developing independence while fostering a joy of learning. In addition to the three R's (reading, writing & arithmetic), Tom And Jerry students are taught the R's of Respect, Responsibility, Reasoning, Resilience, and Resourcefulness.</p>
+            </div>
+          </div>          
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- BEGAIN SERVICE  -->
+            <div class="service_area">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                  <div class="single_service wow fadeInLeft">
+                    <div class="service_iconarea">
+                      <span class="fa fa-line-chart service_icon"></span>
+                    </div>
+                    <h3 class="service_title">Toddler Program (2 - 4 Years)</h3>
+                    <p>Our Primary program offers inherent flexibility through the Montessori approach which allows it to be adapted to the needs of each individual child, regardless of the level of ability, learning style or social maturity.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                  <div class="single_service wow fadeInRight">
+                    <div class="service_iconarea">
+                      <span class="fa fa-suitcase service_icon"></span>
+                    </div>
+                    <h3 class="service_title">Daycare (2 - 10 Years)</h3>
+                    <p>Our day care program is designed to ensure a nurturing, safe, healthy environment where children feel loved and are encouraged to explore their environment. </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                  <div class="single_service wow fadeInLeft">
+                    <div class="service_iconarea">
+                      <span class="fa fa-eraser service_icon"></span>
+                    </div>
+                    <h3 class="service_title">After School (4 - 10 Years)</h3>
+                    <p>After School Care provides a fun filled, safe environment with indoor activities, where he or she can continue to explore, learn & build close friendships. The program is rich in extracurricular activities and touches all aspects including the physical and emotional well being of the child.
+</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                  <div class="single_service wow fadeInRight">
+                    <div class="service_iconarea">
+                      <span class="fa fa-paper-plane service_icon"></span>
+                    </div>
+                    <h3 class="service_title">Extra Curricular Activities</h3>
+                    <p>Children enjoy the well crafted extra curricular activities that has learning of Music, dance and drawing with fun. Personal attention to children to improve their skills and learning abilities towards these areas.<br /><br /></p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                  <div class="single_service wow fadeInLeft">
+                   <div class="service_iconarea">
+                      <span class="fa fa-envelope-o service_icon"></span>
+                    </div>
+                    <h3 class="service_title">Montessori Curriculum</h3>
+                    <p>The Montessori method of education is basically a unique approach to learning. Rather than "teaching" the child concepts, an environment is designed to stimulate the child's interest and facilitate his understanding and learning capacities spontaneously with little or no adult intervention.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                  <div class="single_service wow fadeInRight">
+                   <div class="service_iconarea">
+                      <span class="fa fa-support service_icon"></span>
+                    </div><a href="resources/Tom And Jerry Day.pdf" target="_blank">
+                    <h3 class="service_title">Day in Tom And jerry</h3>
+                    <p>Slide show will give more information about Tom And Jeery and its programs and curriculum.<br />
+                    </p></a>
+                  </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END SERVICE SECTION ================-->
+    <!--=========== BEGAIN WORKS SECTION ================-->
+    <!--    <section id="works">
+      <<<< BEGAIN MILESTONE WORSK SECTION >>>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="counter_section">
+            <<<< SKILLS COUNTER OVERLAY >>>
+            <div class="slider_overlay"></div>
+            <div class="container">               
+              <div class="counter_area">
+               <div class="heading">
+                  <h3 class="wow fadeInLeft">Some Milestone Works</h3>             
+                </div>
+                <<<< START SINGLE COUNTER>>>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="counter wow fadeInUp">
+                    <i class="fa fa-users fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number" data-to="940" data-speed="1500">400</h2>
+                     <p class="count-text ">Clients</p>
+                  </div>
+                </div>
+                <<<< START SINGLE COUNTER>>>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="counter wow fadeInUp">
+                    <i class="fa fa-tasks fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number2" data-to="1750" data-speed="1500">300</h2>
+                     <p class="count-text ">Projects</p>
+                  </div>
+                </div>
+                <<<< START SINGLE COUNTER>>>
+                <div class="col-lg-3 col-md-3 col-sm-3">                 
+                   <div class="counter wow fadeInUp">
+                    <i class="fa fa-coffee fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number3" data-to="300" data-speed="1500">200</h2>
+                     <p class="count-text ">Cup Of Coffee</p>
+                  </div>
+                </div>
+                <<<< START SINGLE COUNTER>>>
+                <div class="col-lg-3 col-md-3 col-sm-3">                 
+                  <div class="counter wow fadeInUp">
+                    <i class="fa fa-bullhorn fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number4" data-to="875" data-speed="1500">100</h2>
+                     <p class="count-text ">Subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <<<< END MILESTONE WORSK SECTION >>>
+
+      <<<< BEGAIN FORTFOLIO WORSK SECTION >>>
+      <div class="row">
+        <div class="portfolio_area">
+          <<<< BEGAIN PORTFOLIO HEADER >>>
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+             <div class="container">
+                <div class="heading">
+                  <h2 class="wow fadeInLeftBig">Latest Works</h2>
+                  <p> School School Expert System is a complete ERP Solutions for medium and Large Schools and Colleges. It has all the departments of the institution integrated into one application. It has given the facility to manage Inventory and Purchase department, Hostel, Transport, and Admission and Examination and Scheduling and many other departments. <br /><br />
+
+This software can help improvise institutions as big as having 5000-10,000 students with staff strength ranging between 500-800. In this everything is automated and number of customised reports can be generated for real time decision making.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <<<< END PORTFOLIO HEADER >>>
+
+          <<<< BEGAIN PORTFOLIO GALLERY >>>
+          <div class="row">
+            <div class="portfolio_gallery">
+              <div id="elastic_grid_demo"></div>
+            </div>
+          </div>
+          <<<< END PORTFOLIO GALLERY >>>
+        </div>         
+      </div>      
+      <<<< END FORTFOLIO WORSK SECTION >>>
+    </section>
+-->
+    <!--=========== END WORKS SECTION ================-->
+    <!--=========== BEGAIN TEAM SECTION ================-->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- BEGAIN ABOUT HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Our Team</h2>            
+            </div>
+            <div class="team_area">
+              <!-- BEGAIN TEAM SLIDER -->
+              <div class="team_slider">  
+                <!-- BEGAIN SINGLE TEAM SLIDE#1 -->              
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <div class="team_img">
+                      <img src="img/team12.jpg" alt="img">
+                    </div>
+                    <h5 class="">Shefali Shrivastava</h5>
+                    <span>Play Group Team</span>                        
+                    <p>Shefali is an B-Tech (Textile) from MLVTI, Rajasthan. She has further pursued her MBA in international business. A mother of a 1.5 Years old kid, she left her well settled career in Textile industry to serve her own passion which is connected to Children. 
+She is a firm believer of Lead By Example. </p>
+<p>
+Shefali explains that she has a belief that strong foundations produce strong and lasting structures. In the same pursuit she wants to give the little buds the right path to walk and leave there footprints and build a stronger tomorrow and a better India. </p>
+                    <div class="team_social">
+                      <a href="https://www.facebook.com/tomandjerryplayschool/"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- BEGAIN SINGLE TEAM SLIDE#2 -->
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <div class="team_img">
+                      <img src="img/team21.jpg" alt="img">
+                    </div>
+                    <h5>Khushbu Agrawal</h5>
+                    <span>Play Group Team</span>
+                    <p>Khushbu is an M-Com, MBA and a mother of 2 kids. She has a keen interest in the upbringing of children. She has a good experience in nurturing of kids and making them bright, self confident and strong.</p>
+                    <p>Khushbu says its a dream come true to be a part of PlayShool and be a part in upbringing and caring of kids and understand them well.</p>
+                    <div class="team_social">
+                      <a href="https://www.facebook.com/tomandjerryplayschool/"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <!-- BEGAIN SINGLE TEAM SLIDE#3 -->
+<!--                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <div class="team_img">
+                      <img src="img/team-1.jpg" alt="img">
+                    </div>
+                    <h5>Shefali Shrivastava</h5>
+                    <span>Manager</span>                        
+                    <p>Designing and Business Analyst</p>
+                    <div class="team_social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>-->
+                <!-- BEGAIN SINGLE TEAM SLIDE#4 -->
+<!--                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <div class="team_img">
+                      <img src="img/team-1.jpg" alt="img">
+                    </div>
+                    <h5>Vikram Srivastava</h5>
+                    <span>Development Head</span>
+                    <p>Having passion of technology, heading the development</p>
+                    <div class="team_social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>-->
+                <!-- BEGAIN SINGLE TEAM SLIDE#5 -->
+<!--                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <div class="team_img">
+                      <img src="img/team-1.jpg" alt="img">
+                    </div>
+                    <h5>Vikram Srivastava</h5>
+                    <span>Programmer</span>                        
+                    <p></p>
+                    <div class="team_social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>-->
+                <!-- BEGAIN SINGLE TEAM SLIDE#6 -->
+<!--                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <div class="team_img">
+                      <img src="img/team-1.jpg" alt="img">
+                    </div>
+                    <h5>Vikram Srivastava</h5>
+                    <span>Business Inteligence Analyst</span>                        
+                    <p>Developing solutions in SSRS, PowerBI, Big Data</p>
+                    <div class="team_social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>-->
+                <!-- BEGAIN SINGLE TEAM SLIDE#7 -->
+<!--                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <div class="team_img">
+                      <img src="img/team-1.jpg" alt="img">
+                    </div>
+                    <h5>Akancha</h5>
+                    <span>Accounts Manager</span>                        
+                    <p>Handling business accounts</p>
+                    <div class="team_social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>-->                              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END TEAM SECTION ================-->
+    <!--=========== BEGAIN PRICING SECTION ================-->
+    <section id="pricing">
+      <div class="container">
+        <div class="row col-lg-12 col-md-12">
+          <!--<<< START ABOUT HEADING >>-->
+          <div class="heading">
+            <h2 class="wow fadeInLeftBig">Fees Structure</h2>
+            <p>Tom And Jerry PlaySchool's Monthly fees are calculated by multiplying the weekly fee by 52 and dividing it by 12. Fees are exclusive of foods (3 meals) and all extra-curricular activities.
+
+We require a minimum of four sessions a week. This is to ensure continuity of care and enables the children to benefit from all the activities and learning opportunities. </p>
+          </div>
+        </div>
+        <div class="row col-lg-12 col-md-12">
+          <div class="pricing_area">
+            <div class="row">
+              <!--<<< BEGAIN BASIC PRICE TABLE >>-->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="single_price wow fadeInUp">
+                  <h3>Play school</h3>
+                  <div class="price">
+                    <h4>Rs. 1500</h4>
+                    <span>per month</span>
+                  </div>
+                  <ul class="price_features">
+                    <li>Admission Fees Discount <br>(First ten students of new session)</li>
+                    <!--<li>Admission fee: Rs. 3000 </li>-->
+                    <!--<li>(First ten students of new session)</li>-->
+                    <!--<li><strong>total saving - rs. 4500</strong></li>-->
+                  </ul>
+                  <a href="#" class="price_btn">Call Now</a>
+                </div>
+              </div>
+                <!--<<< BEGAIN STANDARD PRICE TABLE >>-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_price wow fadeInUp">
+                        <h3>Nursery</h3>
+                        <div class="price">
+                            <h4>Rs. 2000</h4>
+                            <span>per month </span>
+                        </div>
+                        <ul class="price_features">
+                            <li>Admission Fees Discount <br>(First ten students of new session)</li>
+                        </ul>
+                        <a href="#" class="price_btn">Call Now</a>
+                    </div>
+                </div>
+                <!--<<< BEGAIN BUSINESS PRICE TABLE >>-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="single_price business_price wow fadeInUp">
+                    <h3>Day care</h3>
+                    <div class="price">
+                      <h4>Rs. 6000 </h4>
+                      <span>per month</span>
+                    </div>
+                    <ul class="price_features">
+                        <li>(For 9 Hours)</li>
+                        <li>Further Rs. 700 / hour (monthly)</li>
+                        <li>
+                            with three meals <br>
+                            (Breakfast + lunch + milk)
+                        </li>
+                    </ul>
+                    <a href="#" class="price_btn">Call Now</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END PRICING SECTION ================-->
+    <!--=========== BEGAIN BLOG SECTION ================-->
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- START BLOG HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Latest News From Blog</h2>
+              <p>Choosing a nursery for your child is one of the most important decisions as a parent. It is essential that you find a nursery which will support your child's developmental needs and provide a safe, caring and secure environment to allow them to develop into a unique individual.
+
+Our aim is to help your child develop physically, socially and emotionally and prepare them for the transition to school. Our staff carefully plan and prepare for each child's needs, supporting their development.
+
+Tom And Jerry PlaySchool is a new nursery with an environment designed to help your child's needs and develop their learning. We provide bright, airy rooms within a safe, stimulating and secure environment, providing opportunities to develop and enhance every child's individual needs. The environment provides extensive opportunities for your child to discover their physical abilities and explore new skills which will help increase their confidence and independent learning. 
+
+We will be open Monday to Friday (excluding Public Holidays), 51 weeks of the year from 9.30 am to 6 pm. </p>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12">
+            <!-- BEGAIN BLOG CONTENT -->
+            <div class="blog_content">
+
+              <!-- BEGAIN BLOG SLIDER -->
+              <div class="blog_slider">
+                <!-- BEGAIN SINGLE BLOG -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_post wow fadeInUp">
+                    <div class="blog_img">
+                      <img src="img/TnJ/04.jpg" alt="img">
+                    </div>
+                    <h3>Letter to children</h3>
+                    <div class="post_commentbox">
+                      <a href="#"><i class="fa fa-user"></i>Childcare</a>
+                      <span><i class="fa fa-calendar"></i>6:49 AM</span>
+                      <a href="#"><i class="fa fa-tags"></i>Education</a>
+                    </div>
+                    <p>Actually parents, this letter is not for you... it is for your children, the children who will attend our Preschool. <br/> Dear Kiddos...</p>
+                    <a href="photos.aspx" class="read_more">View photos<i class="fa fa-angle-double-right">  </i></a>                   
+                  </div>
+                </div>
+
+                <!-- BEGAIN SINGLE BLOG ->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_post wow fadeInUp">
+                    <div class="blog_img">
+                      <img src="img/blog_img1.jpg" alt="img">
+                    </div>
+                    <h3>Sed ut perspiciatis unde omnis</h3>
+                    <div class="post_commentbox">
+                      <a href="#"><i class="fa fa-user"></i>Wpfreeware</a>
+                      <span><i class="fa fa-calendar"></i>6:49 AM</span>
+                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                    <a href="#" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
+                  </div>
+                </div>
+                <!-- BEGAIN SINGLE BLOG ->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_post wow fadeInUp">
+                    <div class="blog_img">
+                      <img src="img/blog_img1.jpg" alt="img">
+                    </div>
+                    <h3>Sed ut perspiciatis unde omnis</h3>
+                    <div class="post_commentbox">
+                      <a href="#"><i class="fa fa-user"></i>Wpfreeware</a>
+                      <span><i class="fa fa-calendar"></i>6:49 AM</span>
+                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                    <a href="#" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
+                  </div>
+                </div>
+                <!-- BEGAIN SINGLE BLOG ->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_post wow fadeInUp">
+                    <div class="blog_img">
+                      <img src="img/blog_img1.jpg" alt="img">
+                    </div>
+                    <h3>Sed ut perspiciatis unde omnis</h3>
+                    <div class="post_commentbox">
+                      <a href="#"><i class="fa fa-user"></i>Wpfreeware</a>
+                      <span><i class="fa fa-calendar"></i>6:49 AM</span>
+                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                    <a href="#" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
+                  </div>
+                </div>
+                <!-- BEGAIN SINGLE BLOG ->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_post wow fadeInUp">
+                    <div class="blog_img">
+                      <img src="img/blog_img1.jpg" alt="img">
+                    </div>
+                    <h3>Sed ut perspiciatis unde omnis</h3>
+                    <div class="post_commentbox">
+                      <a href="#"><i class="fa fa-user"></i>Wpfreeware</a>
+                      <span><i class="fa fa-calendar"></i>6:49 AM</span>
+                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                    <a href="#" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
+                  </div>
+                </div>
+                <!-- BEGAIN SINGLE BLOG ->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="single_post wow fadeInUp">
+                    <div class="blog_img">
+                      <img src="img/blog_img1.jpg" alt="img">
+                    </div>
+                    <h3>Sed ut perspiciatis unde omnis</h3>
+                    <div class="post_commentbox">
+                      <a href="#"><i class="fa fa-user"></i>Wpfreeware</a>
+                      <span><i class="fa fa-calendar"></i>6:49 AM</span>
+                      <a href="#"><i class="fa fa-tags"></i>Technology</a>
+                    </div>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                    <a href="#" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
+                  </div>
+                </div>                
+              </div>
+            </div>
+            remove this line to uncomment the single blogs-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END BLOG SECTION ================-->
+    <!--=========== BEGAIN TESTIMONIAL SECTION ================-->
+    <!--
+    <section id="testimonial">
+      <div class="container"> 
+        <div class="row">
+          <div class=" col-lg-7 col-md-7 col-sm-6">
+            <!-- START BLOG HEADING ->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Satisfied Customers</h2>
+              <p>ScorpioSolutions helps clients optimize their Customer Support Operations by leveraging the latest Customer Relationship Management (CRM) technologies - starting with a transition to the cloud - to create a multichannel, community-based, knowledge-enabled customer support solution.</p>
+            </div>
+          </div>
+          <div class=" col-lg-5 col-md-5 col-sm-6">
+            <div class="testimonial_customer">
+              <!-- BEGAIN TESTIMONIAL SLIDER 
+              <ul class="testimonial_slider">
+                <!-- BEGAIN SINGLE TESTIMONIAL SLIDE#1 ->
+                <li>
+                  <div class="media testi_media">
+                    <a class="media-left testi_img" href="#">
+                      <img src="img/team-1.jpg" alt="img">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Alin Brown</h4>
+                      <span>CEO</span>                      
+                    </div>
+                  </div>
+                  <div class="testi_content">
+                    <p>Message of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                  </div>
+                </li>
+                <!-- BEGAIN SINGLE TESTIMONIAL SLIDE#2 ->
+                <li>
+                  <div class="media testi_media">
+                    <a class="media-left testi_img" href="#">
+                      <img src="img/team-1.jpg" alt="img">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Jon Smith</h4>
+                      <span>CEO</span>                      
+                    </div>
+                  </div>
+                  <div class="testi_content">
+                    <p>Message of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                  </div>
+                </li>
+                <!-- BEGAIN SINGLE TESTIMONIAL SLIDE#3 ->
+                <li>
+                  <div class="media testi_media">
+                    <a class="media-left testi_img" href="#">
+                      <img src="img/team-1.jpg" alt="img">
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Jon Doe</h4>
+                      <span>Manager</span>                      
+                    </div>
+                  </div>
+                  <div class="testi_content">
+                    <p>Message of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>           
+        </div>
+      </div>
+    </section>
+      -->
+    <!--=========== END TESTIMONIAL SECTION ================-->
+    <!--=========== BEGAIN CLIENTS SECTION ================-->
+    <!--<section id="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <!-- START BLOG HEADING ->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Our Best Clients</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="clients_content">
+              <div class="row">
+                <!-- BEGAIN CLIENTS SLIDER ->
+                <div class="clients_slider">
+                  <!-- BEGAIN SINGLE CLIENT SLIDE#1 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                  <!-- BEGAIN SINGLE CLIENT SLIDE#2 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                  <!-- BEGAIN SINGLE CLIENT SLIDE#3 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                  <!-- BEGAIN SINGLE CLIENT SLIDE#4 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                   <!-- BEGAIN SINGLE CLIENT SLIDE#5 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                  <!-- BEGAIN SINGLE CLIENT SLIDE#6 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                  <!-- BEGAIN SINGLE CLIENT SLIDE#7 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                  <!-- BEGAIN SINGLE CLIENT SLIDE#8 ->
+                  <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="single_client">
+                      <img src="img/clients_img1.png" alt="clients Brand">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--=========== END CLIENTS SECTION ================-->
+    <!--=========== BEGAIN CONTACT SECTION ================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <!-- START CONTACT HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Contact Us</h2>
+              <p>There are several ways by which we can be reached out such as emails, mobile, facebook, twitter, skype etc. Just send us a note and we will get in touch with you and explain the details of services we provide and how we can help you.</p>
+<p><b>If you would like to contact us through email or mobile, please e-mail at childcare@tomandjerry.org.in / contact@tomandjerry.org.in or call (+91)-9811537278 / (+91)-9716045156</b></p></div>
+          </div>
+        </div>       
+        <div class="row">
+          <!-- BEGAIN CONTACT CONTENT -->
+          <div class="contact_content">
+            <!-- BEGAIN CONTACT FORM -->
+            <div class="col-lg-5 col-md-5 col-sm-5">
+              <div class="contact_form">
+
+                <!-- FOR CONTACT FORM MESSAGE -->
+                <div id="form-messages"></div>
+
+                <form>
+                  <input class="form-control" type="text" placeholder="Name">
+                  <input class="form-control" type="email" placeholder="Email">
+                  <input class="form-control" type="text" placeholder="Subject">
+                  <textarea class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
+                   <input class="submit_btn" type="button" value="Send" onclick="contactmessage();">  
+                   <script type="text/javascript">
+                       function contactmessage() {
+                           alert("Message could not be sent. Please use email or mobile number to contact.");
+                       }
+                   </script>
+                </form>
+              </div>
+            </div>
+            <!-- BEGAIN CONTACT MAP -->
+            <div class="col-lg-7 col-md-7 col-sm-7">
+              <div class="contact_map">
+              <!-- BEGAIN GOOGLE MAP -->
+                <script>
+                    function getLocation() 
+                    {
+                        var mapOptions = {
+	                                    center: new google.maps.LatLng(20.593684, 78.96288), zoom:12, mapTypeId:google.maps.MapTypeId.ROADMAP
+                                        };
+
+                        var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);                    
+                    }
+                </script>
+               <div id="map_canvas"></div>
+              </div>
+            </div>           
+          </div>
+        </div>      
+      </div>             
+    </section>
+    <!--=========== END CONTACT SECTION ================-->
+    <!--=========== BEGAIN CONTACT FEATURE SECTION ================-->
+    <section id="contactFeature">
+      <!-- SKILLS COUNTER OVERLAY -->
+      <div class="slider_overlay"></div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">       
+          <div class="container">               
+              <div class="contact_feature">
+            <!-- BEGAIN CALL US FEATURE -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="single_contact_feaured wow fadeInUp">
+                <i class="fa fa-phone"></i>
+                <h4>Call Us</h4>
+                <p>+91-9811-537278</p>                
+                <p>+91-9716-045156</p>                
+              </div>
+            </div>
+            <!-- BEGAIN CALL US FEATURE -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="single_contact_feaured wow fadeInUp">
+                <i class="fa fa-envelope-o"></i>
+                <h4>Email Address</h4>
+                <p>childcare@tomandjerry.org.in<br />contact@tomandjerry.org.in</p>
+              </div>
+            </div>
+            <!-- BEGAIN CALL US FEATURE -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="single_contact_feaured wow fadeInUp">
+                <i class="fa fa-map-marker"></i>
+                <h4>Play School Location</h4>
+                <p>Amrapali Zodiac, Sector 120, Noida, India</p>
+              </div>
+            </div>
+            <!-- BEGAIN CALL US FEATURE -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <div class="single_contact_feaured wow fadeInUp">
+                <i class="fa fa-clock-o"></i>
+                <h4>School Hours</h4>
+                <p>Monday-Friday 9.30 AM - 6.00 PM</p>
+              </div>
+            </div>
+          </div>
+          </div>         
+        </div>
+      </div>
+    </section>
+    <!--=========== END CONTACT FEATURE SECTION ================-->
+    <!--=========== BEGAIN SUBSCRIBE SECTION ================-->
+    <section id="subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- START SUBSCRIBE HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Subscribe Us</h2>
+              <p>Subscribe us to know about the latest offers that we come up from time to time to increase out services for parents.</p>
+            </div>
+            <!-- BEGAIN SUBSCRIVE FORM -->
+            <form class="subscribe_form">
+              <div class="subscrive_group wow fadeInUp">
+                <input class="form-control subscribe_mail" type="email" placeholder="Enter your email address">
+                <input class="subscr_btn" type="submit" value="Subscribe">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END SUBSCRIBE SECTION ================-->
+    <!--=========== BEGAIN FOOTER ================-->
+    <footer id="footer">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-6 col-md-6 col-sm-6">
+             <div class="footer_left">
+               <p>Copyright &copy; 2017 <a href="http://www.tomandjerry.org.in">Tom And Jerry</a>. All Rights Reserved</p>
+             </div>
+           </div>
+           <div class="col-lg-6 col-md-6 col-sm-6">
+             <div class="footer_right">
+               <ul class="social_nav">
+                 <li><a href="https://www.facebook.com/tomandjerryplayschool/"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </div>
+      </footer>
+    <!--=========== END FOOTER ================-->
+    <!-- Javascript Files
+     ================================================== -->
+    <!-- initialize jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Google map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery.ui.map.js"></script>
+    <!-- For smooth animatin  -->
+    <script src="js/wow.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- superslides slider -->
+    <script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+    <!-- slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- for circle counter -->
+    <script src='extrajs/jquery.circliful.min.js'></script>
+    <!-- for portfolio filter gallery -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/elastic_grid.min.js"></script>
+    <script src="js/portfolio_slider.js"></script>
+    <!-- Custom js-->
+    <script src="js/custom.js"></script>
+</body>
+</html>

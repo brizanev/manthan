@@ -1,0 +1,3 @@
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\bin\Release\PhotoBrowserLibrary.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\obj\Release\PhotoBrowserLibrary.dll
+D:\MyProjects\PhotoBrowser\PhotoBrowserLibrary\obj\Release\PhotoBrowserLibrary.csprojResolveAssemblyReference.cache
