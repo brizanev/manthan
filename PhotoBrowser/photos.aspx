@@ -4,7 +4,7 @@
 <HTML>
 
   <HEAD>
-    <title>Tom & Jerry PlaySchool And Daycare : Photos</title>
+    <title>Tom & Jerry PlaySchool And Daycare  : Photos</title>
     <meta name="GENERATOR" Content="Microsoft Visual Studio .NET 7.1">
     <meta name="CODE_LANGUAGE" Content="C#">
     <meta name=vs_defaultClientScript content="JavaScript">
