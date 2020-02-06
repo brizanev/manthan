@@ -2,6 +2,7 @@
 <%@ Page language="c#" validateRequest=false Codebehind="photos.aspx.cs" AutoEventWireup="false" Inherits="Codefresh.PhotosServer.photos" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
+
   <HEAD>
     <title>Tom & Jerry PlaySchool And Daycare : Photos</title>
     <meta name="GENERATOR" Content="Microsoft Visual Studio .NET 7.1">
